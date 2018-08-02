@@ -1,0 +1,1134 @@
+*{
+    box-sizing: border-box;
+}
+/*___________________________________HEADER___________________________________________*/
+.navbar-toggle .icon-bar{
+    background:whitesmoke;
+}
+.header .navbar-nav a{
+    font-family: "open_sansregular";
+    font-size:11px;
+    text-transform:uppercase;
+    color: #eaeaea;
+    line-height: 22px;
+}
+.header .navbar-nav a:hover,
+.header .navbar-nav a:focus{
+    background: transparent;
+    color:whitesmoke;
+}
+.navbar-toggle .icon-bar{
+    background:whitesmoke;
+}
+.header{
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding:15px 20px;
+    z-index: 1;
+}
+/*-----------------------------------------END HEADER------------------------------------*/
+/*______________________________________SECTION 1________________________________________*/
+.section-1{
+    width:100%;
+    height:100vh;
+    background-image: url('../../img/section1-bg.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.content-wrapper{
+    padding: 0px 20px;
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% , -50%);
+}
+.section-1 h1{
+    font-family: "dosisregular";
+    font-size:30px;
+    text-transform:uppercase;
+    letter-spacing: 50px;
+    color:#cecece;
+    margin-bottom:100px;
+    line-height: 2;
+    text-align: center;
+}
+.section-1 span{
+    display:block;
+    text-align: center;
+    font-family: "open_sanslight";
+    font-size:19px;
+    color:#e2e2e2;
+}
+.scroll-down-btn{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:35px;
+}
+@media screen and (min-width:320px) and (max-width:479px){
+    .section-1 h1{
+        font-size: 20px;
+        letter-spacing: 18px;
+        margin-bottom:30px;
+        line-height: 2;
+    }
+    .section-1 span{
+        font-size:15px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:767px){
+    .section-1 h1{
+        font-size: 24px;
+        letter-spacing: 23px;
+        margin-bottom:30px;
+        line-height: 2;
+    }
+    .section-1 span{
+        font-size:16px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:990px){
+    .section-1 h1{
+        font-size: 30px;
+        letter-spacing: 23px;
+        margin-bottom:80px;
+        line-height: 2;
+    }
+    .section-1 span{
+        font-size:19px;
+    }
+}
+/*-----------------------------------------END SECTION-1------------------------------------*/
+/*______________________________________SECTION 2________________________________________*/
+.section-2{
+    padding: 140px 0;
+}
+.section-2 h4{
+    font-family: "dosisregular";
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom:75px;
+    padding: 0 15px;
+}
+.articles blockquote{
+    margin:0;
+    padding:0;
+    border:none;
+}
+.articles blockquote footer{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: "open_sansregular";
+    letter-spacing: 2px;
+}
+.articles blockquote p{
+    font-family: "open_sanslight";
+    font-size: 24px;
+    line-height: 1.4;
+}
+.articles p{
+    font-family: "open_sanslight";
+    font-size: 14px;
+    line-height: 1.6;
+}
+.section-2 .row.team{
+    margin-top: 100px;
+}
+.section-2 .team img{
+    width:100%;
+}
+.info{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: "dosisregular";
+    text-transform: uppercase;
+    text-align: center;
+}
+.name{
+    font-size:13px;
+    letter-spacing: 9px;
+}
+.prof{
+    font-size:11px;
+    letter-spacing: 5px;
+}
+div.col-md-4.skills{
+    background-color:#131313;
+}
+/* Progress bar */
+.progress{
+    background:#363636;
+    height:12px;
+    margin-bottom: 20px;
+}
+.progress.last{
+    margin-bottom: 60px;
+}
+.progress-bar{
+    background-image: linear-gradient(to bottom, #cdcdcd 0%, #cdcdcd 100%);
+}
+/* Skills */
+.item-img{
+    position:relative;
+    height:100%;
+}
+.skills{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background: #131313;
+    transform: scale(0.5, 0.5);
+    top: 0;
+    left:0;
+    opacity: 0;
+    padding:0 40px;
+}
+.skills:hover{
+    transform: scale(1,1);
+    opacity:1;
+    transition-duration: .5s;
+}
+.subject{
+    font-family: "dosisregular";
+    font-size: 15px;
+    margin-top: 40px;
+    color: #e0e0e0;
+}
+.discription{
+    font-family: "open_sansregular";
+    font-size: 10px;
+    color: #a7a7a7;
+    margin-bottom: 25px;
+}
+.skill-name{
+    font-family: "open_sansregular";
+    font-size: 11px;
+    text-transform: uppercase;
+    color:#efefef;
+    margin-bottom:3px;
+}
+@media screen and (min-width:475px) and (max-width:587px){
+    .section-2 .image-wrapper{
+        width:80%;
+        margin:0 auto;
+    }
+    .section-2 p {
+        font-family: "open_sanslight";
+        font-size: 25px;
+        line-height: 1.4;
+    }
+    .articles blockquote footer {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: "open_sansregular";
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+    .articles p {
+        font-family: "open_sanslight";
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    .section-2 .skills .subject {
+        font-family: "dosisregular";
+        font-size: 30px;
+        margin-top: 31px;
+        color: #e0e0e0;
+    }
+    .section-2 .skills .discription {
+        font-family: "open_sansregular";
+        font-size: 15px;
+        color: #a7a7a7;
+        margin-bottom: 30px;
+    }
+    .section-2 .skills .skill-name {
+        font-family: "open_sansregular";
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #efefef;
+        margin-bottom: 3px;
+    }
+    .section-2 .skills .progress {
+        background: #363636;
+        height: 20px;
+        margin-bottom: 21px;
+    }
+    .section-2 .skills .name {
+        font-size: 20px;
+        letter-spacing: 9px;
+    }
+    .section-2 .skills .prof {
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (min-width:588px) and (max-width:674px){
+    .section-2 .image-wrapper{
+        width:80%;
+        margin:0 auto;
+    }
+    .section-2 p {
+        font-family: "open_sanslight";
+        font-size: 29px;
+        line-height: 1.4;
+    }
+    .articles blockquote footer {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: "open_sansregular";
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+    .section-2 .articles p {
+        font-family: "open_sanslight";
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .section-2 .skills p.subject {
+        font-family: "dosisregular";
+        font-size: 37px;
+        margin-top: 60px;
+        color: #e0e0e0;
+    }
+    .section-2 .skills p.discription {
+        font-family: "open_sansregular";
+        font-size: 20px;
+        color: #a7a7a7;
+        margin-bottom: 25px;
+    }
+    .section-2 .skills p.skill-name {
+        font-family: "open_sansregular";
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #efefef;
+        margin-bottom: 3px;
+    }
+    .section-2 div.progress {
+        background: #363636;
+        height: 23px;
+        margin-bottom: 28px;
+    }
+    .section-2 p.name {
+        font-size: 25px;
+        letter-spacing: 9px;
+    }
+    .section-2  p.prof {
+        font-size: 17px;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (min-width:675px) and (max-width:991px){
+    .section-2 .image-wrapper{
+        width:80%;
+        margin:0 auto;
+    }
+    .subject {
+        font-family: "dosisregular";
+        font-size: 35px;
+        margin-top: 64px;
+        color: #e0e0e0;
+    }    
+    .discription {
+        font-family: "open_sansregular";
+        font-size: 20px;
+        color: #a7a7a7;
+        margin-bottom: 30px;
+    }
+    .skill-name {
+        font-family: "open_sansregular";
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #efefef;
+        margin-bottom: 3px;
+    }
+    .progress {
+        background: #363636;
+        height: 21px;
+        margin-bottom: 30px;
+    }
+    .articles blockquote p {
+        font-family: "open_sanslight";
+        font-size: 30px;
+        line-height: 1.4;
+    }
+    .articles blockquote footer {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: "open_sansregular";
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+    .articles p {
+        font-family: "open_sanslight";
+        font-size: 19px;
+        line-height: 1.6;
+    }
+    .name {
+        font-size: 30px;
+        letter-spacing: 9px;
+    }
+    .prof {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .section-2 .image-wrapper{
+        width:80%;
+        margin:0 auto;
+    }
+    .subject {
+        font-family: "dosisregular";
+        font-size: 20px;
+        margin-top: 16px;
+        color: #e0e0e0;
+    }    
+    .discription {
+        font-family: "open_sansregular";
+        font-size: 10px;
+        color: #a7a7a7;
+        margin-bottom: 7px;
+    }
+    .skill-name {
+        font-family: "open_sansregular";
+        font-size: 9px;
+        text-transform: uppercase;
+        color: #efefef;
+        margin-bottom: 3px;
+    }
+    .progress {
+        background: #363636;
+        height: 10px;
+        margin-bottom: 14px;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1366px) {
+    .section-2{
+        padding:100px 0;
+    }
+    .section-2  .articles blockquote+p{
+        font-size:20px;
+        margin-bottom:0;
+    }
+    .section-2 .articles blockquote footer{
+        margin-bottom:20px;
+    }
+    .articles p {
+        font-family: "open_sanslight";
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 20px;
+    }
+    .section-2 .row.team{
+        margin-top: 50px;
+    }
+    .section-2 .image-wrapper{
+        width:90%;
+        margin:0 auto;
+    }
+    .section-2 .info{
+        margin-top:20px;
+    }
+    .skills .subject{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .discription{
+        margin-bottom: 40px;
+        font-size: 13px;
+    }
+    .skill-name{
+        font-size: 10px;
+    }
+    .progress {
+        height: 15px;
+        margin-bottom: 15px;
+    }
+}
+/*-----------------------------------------END SECTION-2------------------------------------*/
+/*______________________________________SECTION 3________________________________________*/
+.section-3{
+    padding:140px 0 170px;
+}
+.section-3 h4{
+    text-transform: uppercase;
+    font-family: "dosisregular" sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #111111;
+    margin-bottom:110px;
+}
+.section-3 .tab-content{
+    margin-top:80px;
+}
+.section-3 .nav-tabs li{
+    width:20%;
+    text-align: center;
+}
+.section-3 .nav-tabs{
+    border:none;
+}
+.section-3 .nav-tabs li a{
+    color: #888888;
+    border: none;
+}
+.section-3 .nav-tabs li:active,
+.section-3 .nav-tabs li a:hover,
+.section-3 .nav-tabs li a:focus{
+    color:#111111;
+    background: transparent;
+    border: none;
+}
+.section-3 .nav-tabs li span{
+    display: block;
+}
+.section-3 .nav-tabs li span:first-child{
+font-size:48px;
+margin-bottom: 35px;
+}
+.section-3 .nav-tabs li span:last-child{
+    font-family: "dosisregular" sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.section-3 .articles{
+    margin:0;
+}
+@media screen and (max-width:768px){
+    .section-3 .nav-tabs li{
+        width:50%;
+    }
+    .section-3 .nav-tabs li:last-child:not(:nth-child(even)){
+        float:none;
+        margin:0 auto;
+        clear: both;
+    }
+    .section-3 .row.articles{
+        margin:0;
+    }
+}
+/*-----------------------------------------END SECTION-3------------------------------------*/
+/*______________________________________SECTION 4________________________________________*/
+.section-4{
+    padding:140px 0px;
+    background:#111111;
+}
+.section-4 h4{
+    color:#ffffff;
+    font-family:  "dosisregular" sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+}
+.section-4 p{
+    font-size: 15px;
+    color:#bbbbbb;
+    font-family: "open_sanslight";
+    margin: 25px 0 40px;
+}
+.section-4 button.btn{
+    padding:10px 40px;
+    font-size:14px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-family:  "open_sansregular";
+}
+.section-4 .img-container{
+   transform: translateY(-180px);
+}
+@media screen and (max-width:991px){
+    .section-4 .col-md-6{
+        padding: 70px 20px;
+        text-align:center;
+    }
+    .section-4 .img-container{
+        top:70%;
+        transform: translateY(-40px);
+        width: 100%;
+    }
+}
+@media screen and (max-width:1100px){
+    .section-4 .img-container img{
+        width: 95%;
+    }
+}
+/* -----------------------------------------END SECTION-4------------------------------------*/ */
+/*______________________________________SECTION 5________________________________________*/
+.section-5{
+    padding-top:140px;
+}
+.section-5 h4{
+    font-family: "dosisregular" ;
+    text-transform: uppercase;
+    font-size:18px;
+    letter-spacing: 8px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.section-5 p{
+    font-family: "open_sanslight";
+    font-size: 15px;
+    padding: 0 200px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.section-5 .nav-tabs li a{
+    font-size:11px;
+    font-family: "dosisregular" ;
+    background: transparent;
+    color:#a6a6a6;
+    text-transform: uppercase;
+    border:none;
+    letter-spacing: 5px;
+}
+.section-5 .nav-tabs li{
+    width:25%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding:10px;
+}
+.section-5 .nav-tabs li:active,
+.section-5 .nav-tabs li a:hover,
+.section-5 .nav-tabs li a:focus{
+    color:#111111;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.section-5 .img-wrapper{
+    position: relative;
+    padding: 0;
+}
+.section-5 .gray{
+    opacity:1;
+    width:100%;
+}
+.section-5 .color{
+    position: absolute;
+    top: 0; left:0;
+    opacity:0;
+    width:100%;
+}
+.section-5 .img-wrapper:hover .gray{
+    opacity:0;
+    cursor: pointer;
+}
+.section-5 .img-wrapper:hover .color{
+    opacity:1;
+    cursor: pointer;
+}
+@media screen and (max-width:991px){
+    .section-5{
+        padding-top:50px;
+    }
+    .section-5 h4{
+        margin-bottom: 10px;
+    }
+    .section-5 p{
+        padding:0
+    }
+    .section-5 .img-wrapper{
+        padding:  15px
+    }
+}
+@media screen and (min-width:320px) and (max-width:560px){
+    .section-5 .nav-tabs li {
+        width: 50%;
+        text-align: center;
+    }
+    .section-5 .nav-tabs li a{
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+}
+.section-5 .slicl-slider.slick-dotted{
+    margin-bottom:0;
+}
+.section-5 .slick-dots{
+    bottom:20px;
+}
+.section-5 .slick-dots li button:before{
+    font-size:60px;
+}
+.section-5 .slick-dots li.slick-active button:before{
+    opacity: 1;
+}
+.section-5 .slick-dots li button::before{
+    opacity: 0.5;
+}
+/* ----------------------------------END SECTION-5--------------------------------*/
+/*____________________________________SECTION 6__________________________________*/
+.section-6 {
+    background: #111111;
+    margin: 0;
+    padding:70px 0px;
+    text-align: center;
+}
+.section-6 h4{
+    font-family: "dosisregular";
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-align: center;
+    margin:0;
+    color: #c0c0c0;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.section-6 button{
+    padding:15px 40px;
+    background: #cfcfcf;
+    cursor: pointer;
+    border-radius: 1px;
+    font-family: "open_sansregular" ;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color:#111111;
+}
+/* ----------------------------------END SECTION-6--------------------------------*/
+/*____________________________________SECTION 7__________________________________*/
+.section-7{
+    padding:140px 0;
+}
+.section-7 h4{
+    font-family: "dosisregular" sans-serif;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-7 span{
+    display:block;
+    text-align: center;
+}
+.section-7 span.icon{
+    font-size: 80px;
+    margin-top:50px;
+}
+.section-7 span.title{
+    font-family: "dosisregular" sans-serif;
+    font-size: 14px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin: 35px 0;
+    text-align: center;
+}
+.section-7 p{
+    font-family: "open_sansregular" ;
+    font-size: 12px;
+    text-align: center;
+}
+@media screen and (max-width:767px){
+    .section-7 .row{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:991px){
+    .section-7 {
+        padding: 70px 0;
+    }
+}
+/* ----------------------------------END SECTION-7--------------------------------*/
+/*____________________________________SECTION 8__________________________________*/
+.section-8 .container-fluid{
+    padding: 0;
+}
+.section-8 div.item{
+    height: 485px;
+    background: url('../../img/caruselbg.png');
+    background-size:100% 100%;
+}
+.section-8 div.text-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:#818181;
+}
+.section-8 span.icon-quote{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.section-8 h4{
+    margin-bottom:40px; 
+    font-family: "dosisregular" ;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color:whitesmoke;
+}
+.section-8 p.q{
+    margin-bottom: 30px;
+}
+a.carousel-control{
+    width:45px;
+}
+span.arrow-right{
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%) ;
+}
+span.arrow-left{
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%) ;
+}
+@media screen and (max-width:675px){
+    span.arrow-right {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+        text-align: right;
+    }
+    span.arrow-left{
+        position: absolute;
+        top:50%;
+        left: 0;
+        transform: translateY(-50%) ;
+        text-align:left;
+    }
+    .section-8 img {
+        width: 60%;
+    }
+}
+/* ------------------------------END SECTION-8----------------------------*/
+/*_________________________________SECTION 9___________________________*/
+.section-9{
+    padding: 140px 0;
+}
+.section-9 h4{
+    font-family: "dosisregular" sans-serif ;
+    font-size: 15px; 
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    display:inline;
+}
+.section-9 a{
+    font-family: "dosisregular" sans-serif ;
+    font-size: 11px; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    float:right;
+    color:#b4b4b4;
+    
+}
+.section-9 a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+}
+.section-9 .img-wrapper{
+    position: relative;
+}
+.section-9 .gray{
+    opacity:1;
+    width:100%;
+}
+.section-9 .color{
+    position: absolute;
+    top: 0; left:0;
+    opacity:0;
+    width:100%;
+}
+.section-9 .img-wrapper:hover .gray{
+    opacity:0;
+    cursor: pointer;
+}
+.section-9 .img-wrapper:hover .color{
+    opacity:1;
+    cursor: pointer;
+}
+.section-9 .text p.discription{
+    font-family: "open_sanslight";
+    font-size: 15px;
+    color:#a2a2a2;
+}
+.section-9 .text p.name-date{
+    color:#b8b8b8;
+    font-family: "dosisregular" ;
+    font-size: 11px;
+}
+.section-9 h5{
+    font-family: "dosisregular" ;
+    font-size: 15px; 
+    text-transform: uppercase;
+    margin-top:30px;
+}
+.section-9 .row.news{
+    margin-top:80px;
+}
+@media screen and (max-width:767px){
+    .section-9 h4 {
+        font-family: "dosisregular";
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-bottom: 25px;
+        padding: 0px 20px;
+    }
+    .section-9 a {
+        font-family: "dosisregular";
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        float: right;
+        color: #b4b4b4;
+    }
+    .section-9 .img-wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-9 .text{
+        padding: 0px 65px;
+    }
+    .section-9 h5 {
+        font-family: "dosisregular";
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+    .section-9 .text p.name-date {
+        color: #b8b8b8;
+        font-family: "dosisregular";
+        font-size: 15px;
+    }
+    .section-9 .text p.discription {
+        font-family: "open_sanslight";
+        font-size: 18px;
+        color: #a2a2a2;
+    }
+}
+@media screen and (max-width:768px){
+    .section-9 .news div.col-md-6:last-child:not(:nth-child(even)){
+        width: 50%;
+        float:none;
+        margin:0 auto;
+        clear: both; 
+    }
+}
+/* ------------------------------END SECTION-9----------------------------*/
+/*_________________________________SECTION 10___________________________*/
+.section-10{
+    text-align: center;
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+.section-10 h4{
+    font-family: "dosisregular" sans-serif ;
+    font-size: 16px; 
+    text-transform: uppercase; 
+    letter-spacing: 5px;
+    margin-bottom:20px;
+}
+.section-10 input.form-control{
+    width:100%;
+    font-family: "open_sansregular" ;
+    font-size: 12px; 
+    text-transform: uppercase;
+    padding-right:90px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.section-10 p{
+    font-family: "open_sansregular" ;
+    font-size: 11px; 
+    color:#b4b4b4;
+    margin-top:20px;
+}
+.section-10 .btn{
+    background: #323232;
+    color:#ffffff;
+    padding:14px 30px;
+    font-family: "open_sanslight" ;
+    font-size: 11px; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* ------------------------------END SECTION-10----------------------------*/
+/*_________________________________SECTION 11___________________________*/
+.section-11{
+    padding:140px 0;
+}
+.section-11 h4{
+    font-family: "dosisregular" sans-serif;
+   font-size:18px;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   text-align: center;
+   margin-bottom: 100px;
+}
+.section-11 img{
+    float:left;
+    font-size: 18px;
+    margin-right:15px;
+}
+.section-11 p.text{
+   font-family: "dosisregular" sans-serif;
+   font-size:12px;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   margin: 0;
+}
+.section-11 p.discription{
+    font-family: "open_sanslight" ;
+    font-size: 15px; 
+    margin:0;
+}
+.section-11 div.row.form{
+    padding-top:80px;
+}
+.section-11 input.form-control{
+    font-family: "open_sansregular" ;
+    font-size: 12px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.section-11 p.inf{
+    font-family: "open_sansregular" ;
+    font-size: 11px; 
+    color:#b4b4b4;
+    margin-top:20px;
+}
+.section-11 .col-md-6.q{
+    padding:0;
+}
+.section-11 textarea{
+    height:85px;
+    font-family: "open_sansregular" ;
+    font-size: 12px;
+    text-transform:uppercase;
+}
+.section-11 button{
+    margin-top:10px;
+    padding:13px 20px;
+    background: #333333;
+    font-family: "open_sansregular" ;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+    color:whitesmoke;
+    float:right;
+}
+/* ___________________________________MAP____ */
+#map {
+    width: 100%;
+    height: 410px;
+}
+div#map{
+   margin-top:140px;
+}
+.section-11 .container-fluid{
+    padding:0;
+    position: relative;
+}
+.section-11 div.shadow{
+    width:100%;
+    height: 410px;
+    background :#1d1d1d;
+    position: absolute;
+    left: 0; top:0;
+    z-index: 9;
+    opacity: 0.92;
+    margin-top:140px;
+}
+.section-11 img.map{
+    display:block;
+    float: none;
+    margin: 0 auto;
+
+}
+.section-11 p.map{
+    color:#999999 ;
+    font-family: "dosisregular";
+    font-size: 16px;
+    text-transform:uppercase;
+    display: block; 
+    text-align:center;
+    margin-top:30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.section-11 a.content{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50% ,-50%) ;
+   z-index:99;
+   text-decoration: none;
+}
+.section-11 a.content:hover,
+.section-11 div.shadow:hover
+{
+    opacity: 0;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+/* ------------------------------END SECTION-11----------------------------*/
+/*_________________________________SECTION 12___________________________*/
+.section-12{
+    position: relative;
+    width:100%;
+    height: 400px;
+}
+.section-12 img.mount{
+    display:block;
+    position: absolute;
+    top:40%; left:50%;
+    transform: translate(-50%, -50%);
+}
+.section-12 .icons{
+    display:block;
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -10%)
+}
+p.copyright{
+    display:inline-block;
+    position: absolute;
+    position: absolute;
+    top:90%; left:50%;
+    transform: translate(-50%, -50%);
+    font-family: "dosisregular";
+    font-size: 12px;
+    text-transform:uppercase;
+    letter-spacing: 6px;
+}
+.section-12 p.text{
+    display:inline-block;
+    position: absolute;
+    position: absolute;
+    top:98%; left:50%;
+    transform: translate(-50%, -50%);
+    font-family: "open_sansregular" ;
+    font-size: 12px;
+    color:#b5b5b5;
+}
+.section-12 a.arrow{
+    position: absolute;
+    right:5%;
+    bottom:5%;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: black;
+    color:#b5b5b5;
+}
+.section-12 a.arrow:hover{
+    color:black;
+}
+@media screen and (max-width:352px){
+    .section-12 .icons{
+        display:block;
+        position: absolute;
+        top:50%; left:50%;
+        width:55%;
+        transform: translate(-50%, -10%)
+    }
+}
